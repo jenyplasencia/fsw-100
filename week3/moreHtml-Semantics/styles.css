@@ -1,0 +1,24 @@
+.titulo{
+  background-color: lightslategray;
+  height: 60px; 
+  background-position: center;
+  background-size: cover;
+  font-family: fantasy;
+  font-size: 40px;
+  font-style: Bold;
+  color: blue;
+  text-align: center;
+  width: auto;
+}
+.floating-menu {
+  font-family: sans-serif;
+
+  background: whitesmoke;
+  padding: 5px;;
+  width: 70px;
+  z-index: 100;
+  position: fixed;
+}
+  
+
+
