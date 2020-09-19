@@ -1,60 +1,119 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>HTML5 Semantic Tags</title>
         <link rel="stylesheet" href=./styles.css>
+        
         <style>
-        #GFG { 
-            text-decoration: none; 
-        } 
+          a { text-decoration: none; }
+            a:hover { text-decoration: underline;
+            }
+                  
         </style>
          
     </head>
     <body>
-         <header class="titulo">
-            Jeny's Car Dealer
-            <img id="img01" rel="share" src="https://www.pngkey.com/png/full/100-1008408_luxury-cars-png-jpg-black-and-white-luxury.png" alt="Luxury Cars Png Jpg Black And White - Luxury Cars Png (846x362), Png Download" title="Luxury Cars Png Jpg Black And White - Luxury Cars Png (846x362), Png Download">
-        </header>
-        <nav class="floating-menu" id = "GFG">
-            <a href="./price.html">By Price</a>
-            <hr>
-            <a href="./make">By Make</a>
-            <hr>
-            <a href="./model">By Model</a>
-          </nav>
+            <header class="titulo">
+              Jeny's Car Dealer
+            
+                <nav class="floating-menu" >
+            
+                 <a href="./price.html">Search <hr>[ By Price ]</a>
+            
+                 <a href="./make.html">[ By Make ]</a>
+            
+                    <a href="./model.html">[ By Model ]</a>
+                </nav>
+            </header>
         
         
-        
-        <main>
-           
+        <main class="show">
+            <table class="tabla">
+                <thead>
+                    <th colspan="3"> Make an appointment for driving test </th>
+                    <br>
+                    <br>
+                    <tr>
+                        <th width="180"> Name </th>
+                        <th> Day  </th>
+                        <th> Time </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>. </td>       
+                        <td>. </td>  
+                        <td>. </td> 
+                    </tr> 
+                </tbody>
+                <tfoot>
+                    <tr> 
+                        <td>. </td>       
+                        <td>. </td>  
+                        <td>. </td>
+                    </tr>
+                </tfoot>
+            </table>       
+            <img src="https://www.pngkey.com/png/full/100-1008408_luxury-cars-png-jpg-black-and-white-luxury.png"  alt="Luxury Cars Png Jpg Black And White - Luxury Cars Png (846x362), Png Download" title="Luxury Cars Png Jpg Black And White - Luxury Cars Png (846x362), Png Download"> 
+            <span><strong>WE AT <span style="color: red;"> JENY'S CAR DEALER </span>  ARE COMMITTED TO OFFERING YOU QUALITY PRE-OWNED VEHICLES AT HONEST AND FAIR PRICES. OUR VEHICLES ARE MOSTLY LATE MODEL CARS AND TRUCKS THAT ARE READY TO GO, WE BELIEVE IT IS OUR DUTY TO PROVIDE A PLACE OF BUSINESS WHERE MOTOR VEHICLES MAY BE PURCHASED WITH CONFIDENCE. WE INVITE YOU TO COME IN AND TEST DRIVE ANY OF OUR QUALITY CARS AND TRUCKS TODAY!!</strong></span> 
+              
         </main>
         
         <footer>
-            
-        </footer>
+            <span class="brand">Our Brands:</span>
+            <table class="forfoot">
+                <thead>
+                    <tr>
+                        <th width="180"> Mitsubishi  </th>
+                        <th width="180"> Honda </th>
+                        <th width="180"> Chevrolet </th>
+                        <th width="180"> Hyndai  </th>
+                        <th width="180"> Nissan </th>
+                        <th width="180"> Chevrolet </th>
+                        <th width="180"> Toyota  </th>
+                        <th width="180"> Ford </th>
+                        <th width="180"> BMW </th>
+                        <th width="180"> Acura  </th>
+                        <th width="180">  G. M.  </th>
+                        <th width="180"> Buick </th>
+                        <th width="180"> Dodge </th>
+                        <th width="180"> Lincoln  </th>
 
-    </body>
-</html> 
-   /*lllll*/ 
-    
-        <div>   
-        <h1>Header</h1>
-    </div>
-    <div>
-        <p>Navbar</p>   <!-- Remove the <p> and add links -->
-    </div>
-    <div>
-        <h2>Main Section</h2>
-        <div>
-            <h3>Article</h3>
-        </div>
-        <div>
-            <h3>Aside</h3>
-        </div>
-    </div>
-    <div>
-        <h3>Footer</h3>
-        <p>&copy; 2019 Webdev Student</p>
-    </div>
-</body>
+                    </tr>
+                </thead>
+                <tbody class="body">
+                    <tr>
+                        <td width="180"><strong> Merc.Benz</strong> </td>
+                        <td width="180"><strong> Telsa</strong> </td>
+                        <td width="180"><strong> Volkswagen</strong>  </td>
+                        <td width="180"><strong> Jeep</strong> </td>
+                        <td widtd="180"><strong> Porshe</strong> </td>
+                        <td width="180"><strong>  Kia</strong>  </td>
+                        <td width="180"><strong> Buick</strong> </td>
+                        <td width="180"><strong> Jaguar</strong> </td>
+                        <td width="180"><strong> Mazda</strong>  </td>
+                        <td width="180"><strong> Subaru</strong> </td>
+                        <td width="180"><strong> Cadillac</strong> </td>
+                        <td width="180"><strong> Lexus</strong>  </td>
+                        <td width="180"><strong> Ferrari</strong> </td>
+                        <td width="180"><strong> Audi</strong> </td>
+                    </tr>
+                  </tbody>
+                <tfoot>
+                 <tr></tr>
+                </tfoot>
+            </table> 
+            <br>
+            <span><img src="http://www.clker.com/cliparts/0/g/f/w/0/d/telefono-md.png" width="35px"> </span>
+            <span class="justfor">Call us at (800)-5555</span>
+          
+            <span class="touch"> 2840 Eastern Blvd, Montgomery, AL 36116</span>
+            <hr>
+
+            <span>&copy; 2019 Webdev Student</span>
+ 
+        </footer>
+  
+   </body>
 
 </html>
