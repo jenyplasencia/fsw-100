@@ -6,17 +6,23 @@
 @media only screen and (max-width: 768px) {
 
     .wrapper {
+        
         margin-right: auto; 
         margin-left: auto; 
         max-width:auto;
         padding-right: 15px;
         padding-left: 15px; 
+        border: 2px;
+        border-color: white;
+        
     }
     .box1{
     
         background-color: #F5C6D6;
         padding: 2px;
         margin:2px;
+        border:2px;
+        border-color: white;
         
 
     }
@@ -72,15 +78,15 @@
         margin:2px;
         
 
-}
+    }
 
-.box9 {
+    .box9 {
     background-color: #E76E34;
     padding: 2px;
     margin: 2px;
     
 
-}
+    }
 
 
 }
@@ -92,9 +98,9 @@
         width: 1014px;
         margin-right: auto; 
         margin-left: auto; 
-        max-width:1160px; 
-        padding-right: 10px;
-        padding-left: 10px; 
+        
+        padding-right: 15px;
+        padding-left: 15px; 
     }
     .box1{
         
