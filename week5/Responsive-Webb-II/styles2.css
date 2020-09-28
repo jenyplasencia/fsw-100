@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Mobile */
+@media only screen and (max-width: 500px)  {
+ 
+    #grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        border-radius: 2px;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        grid-gap: 5px;
+        margin: 2px;  
+        text-indent: 7px;
+        text-align: left;
+        
+        
+    }
+    
+        
+    #box1{
+    
+        background-color: lightcyan;
+        border-radius: 5px;
+        grid-column: 1 /-1;
+        grid-row: 1 / 2;
+        height: 40px; 
+    
+        
+
+    }
+    #box2 {
+        
+        background-color: lightpink;
+        border-radius: 5px;
+        grid-column: 1 /-1;
+        grid-row: 2 / 3;
+        height: 40px;
+         
+
+    }
+    #box3 {
+    
+        background-color: lightsteelblue;
+        border-radius: 5px;
+        grid-column: 1 /-1;
+        grid-row: 3 / 5;
+        height: 80px; 
+
+    }
+    #box4 {
+        background-color: linen;
+        border-radius: 5px;
+        grid-column: 1 /-1;
+        grid-row: 5 / 6;
+        height: 40px;
+        
+
+    }
+
+    #box5 {
+        background-color: lightsalmon;
+        border-radius: 5px;
+        grid-column: 1 /-1;
+        grid-row: 6 / 7;
+        height: 40px;
+       
+
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 501px) and (max-width: 1024px) {
+
+    #grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        border-radius: 2px;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        grid-gap: 5px;
+        margin: 2px;  
+        text-indent: 7px;
+        text-align: left;
+        
+        
+    }
+    
+        
+    #box1{
+    
+        background-color: lightcyan;
+        border-radius: 5px;
+        grid-column: 1 /-1;
+        grid-row: 1 / 2;
+        height: 40px; 
+    
+        
+
+    }
+    #box2 {
+        
+        background-color: lightpink;
+        border-radius: 5px;
+        grid-column: 1 / 2;
+        grid-row: 2 / 4;
+        height: 80px;
+         
+
+    }
+    #box3 {
+    
+        background-color: lightsteelblue;
+        border-radius: 5px;
+        grid-column: 2 /-1;
+        grid-row: 2 / 4;
+        height: 80px; 
+
+    }
+    #box4 {
+        background-color: linen;
+        border-radius: 5px;
+        grid-column: 1 /-1;
+        grid-row: 4 / 5;
+        height: 40px;
+        
+
+    }
+
+    #box5 {
+        background-color: lightsalmon;
+        border-radius: 5px;
+        grid-column: 1 /-1;
+        grid-row: 5 / 6;
+        height: 40px;
+       
+
+    }
+
+}
+
+
+/* Laptop */
+@media only screen and (min-width: 1024px) {
+
+    #grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        border-radius: 2px;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        grid-gap: 5px;
+        margin: 2px;  
+        text-indent: 7px;
+        text-align: left;
+        
+        
+    }
+    
+        
+    #box1{
+    
+        background-color: lightcyan;
+        border-radius: 5px;
+        grid-column: 1 /-1;
+        grid-row: 1 / 2;
+        height: 40px; 
+    
+        
+
+    }
+    #box2 {
+        
+        background-color: lightpink;
+        border-radius: 5px;
+        grid-column: 1 / 2;
+        grid-row: 2 / 4;
+        height: 80px;
+         
+
+    }
+    #box3 {
+    
+        background-color: lightsteelblue;
+        border-radius: 5px;
+        grid-column: 2 / 4;
+        grid-row: 2 / 4;
+        height: 80px; 
+
+    }
+    #box4 {
+        background-color: linen;
+        border-radius: 5px;
+        grid-column: 4 /-1;
+        grid-row: 2 / 4;
+        height: 80px; 
+        
+
+    }
+
+    #box5 {
+        background-color: lightsalmon;
+        border-radius: 5px;
+        grid-column: 1 /-1;
+        grid-row: 4 / 5;
+        height: 40px;
+       
+
+    }
+
+}
+
+
