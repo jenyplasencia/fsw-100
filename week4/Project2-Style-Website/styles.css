@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.titulo {
+    display: inline-block;
+    font-family: 'Dancing Script', cursive;
+    background-color: white;
+    margin: 15px, 100px 5px;
+    padding-left: 75px;
+    font-size: 55px;
+    color: red;
+     z-index: 2;
+}
+
+
+.cook{
+    position: absolute;
+    display: inline-block;
+    top:5px;
+    height:120px;
+    width:3oopx;
+    left:780px;
+    padding-bottom: 25px;
+    z-index: 1;
+}
+#phone {
+    position: absolute;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    top: 25px;
+    right: 35px;
+    color: black;
+
+}
+.navflota {
+    position: -webkit-sticky;
+    position: sticky;
+    top:150px;
+    left:19px;
+    display:inline-block;
+    font-family: fangsong;
+    font-size: 23px;
+    background: red;
+    width: 1470px;
+    border: 3px ;
+    padding: 5px;
+    z-index: 2;
+}
+
+.home {
+    position: relative;
+    left: 110px;
+    color: white;
+    
+   
+}
+.men {
+    position: relative;
+    left: 200px;
+    color: white;
+}
+
+.order{
+    position: relative;
+    left: 290px;
+    color: white;
+
+}
+
+.shop {
+    position: relative;
+    left: 380px;
+    color: white;
+   
+}
+.reser {
+    position: relative;
+    left: 490px;
+    color: white;
+}
+
+
+.us{
+    position: relative;
+    left: 590px;
+    color: white;
+
+}
+#sec1 {
+    position: absolute;
+    display: inline-block;
+    top:177px;
+    bottom: 5px;
+    left: 15px;
+    width: 250px;
+    border: 3px solid white;
+    background-color: lightgrey;
+    padding: 20px;    
+    line-height: 1.5;
+    z-index: 1;
+  }
+
+.img1 {
+    position: absolute;
+    left:315px;
+    display: inline-block;
+    width: 880px;
+    height: 615px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px 5px 5px;
+    z-index: -1;  
+}
+
+#sec2 {
+    position: absolute;
+    display: inline-block;
+    top:177px;
+    bottom: 5px;
+    right: 15px;
+    width: 250px;
+    border: 3px solid white;
+    background-color: lightgrey;
+    padding: 20px;    
+    line-height: 1.5;
+    z-index: 1;
+  }
+
+#divide {
+    position: absolute;
+    width: 1481px;
+    height: 150px;
+    left: 18px;
+    top:805px;
+    background-color:black;
+    z-index:-1;
+}
+
+.menu {
+    position: absolute;
+    left:400px;
+    display: inline-block;
+    width: 700px;
+    height: 140px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 12px 5px 5px;
+    z-index: 1;
+}
+
+.chef{
+    position: absolute;
+    display: inline-block;
+    top:17px;
+    height:535px;
+    width:350px;
+}
+
+#tabla {
+    position: absolute;
+    display:inline-block;
+    left: 360px;
+    font-family: "Helvetic";
+    border-collapse: collapse;
+    width: 100%;
+    top:160px;
+    
+  }
+  
+  #tabla td, #tabla th {
+    border: 1px solid black;
+    padding: 8px;
+    background-color: whitesmoke;
+  }
+    
+  #tabla th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: red;
+    color:black;
+  }
+
+  #divide2 {
+    position: relative;
+    width: 1481px;
+    height: 10px;
+    left: 18px;
+    top:1205px;
+    background-color:black;
+    z-index:-1;
+}
+
+
+  .pie{
+    position:relative;
+    left: 300px;
+    top: 15px;
+}
